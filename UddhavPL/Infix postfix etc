@@ -1,0 +1,24 @@
+#include<iostream>
+class Exprssion{
+	int prefix[MAX];
+	int prefix[MAX];
+	int postfix[MAX];
+	Stack s;
+	bool isOperator(char x);
+	int precedence(String x);
+	void prefix_infix();
+	void infix_postfix();
+	void prefix_eval();
+	
+};
+bool Expression::isOperator(char x){
+	if(x=='+'||x=='-'||x=='*'||x=='/'||x=='n'){
+		return true;
+	}else{
+		return false;
+		
+	}
+}
+int Expression::precedence(String x){
+	if(x=='n')
+}
